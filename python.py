@@ -1,13 +1,13 @@
-баа = int(input("Бааңды киргиз: "))
+price = int(input("Бааңды киргиз: "))
 
-if баа > 90:
-    print("Отлично!")
-elif баа >= 70:
-    print("Хорошо!")
-elif баа >= 50:
-    print("Средне")
+if price > 90:
+    print("great!")
+elif price >= 70:
+    print("Good!")
+elif price >= 50:
+    print("not bad")
 else:
-    print("Учись больше!")
+    print("Learn more!")
 
 # 2 Exemple
 
